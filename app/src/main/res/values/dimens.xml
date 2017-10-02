@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="order_banner_text">20sp</dimen>
+    <dimen name="top_banner_padding">20dp</dimen>
+    <dimen name="edit_padding">150dp</dimen>
+    <dimen name="order_text_size">18sp</dimen>
+</resources>

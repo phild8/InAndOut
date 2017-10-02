@@ -1,0 +1,24 @@
+<resources>
+    <!-- ORDER ITEMS-->
+    <string name="app_name">In Und Aus</string>
+    <string name="order_banner">Eine Bestellung aufgeben</string>
+    <string name="double_double">Doppelzimmer Doppelzimmer $3.60  </string>
+    <string name="cheese_burger">Cheeseburger $2.15  </string>
+    <string name="french_fries">Pommes frittes $1.65  </string>
+    <string name="shakes">Schüttelt $2.20  </string>
+    <string name="fountain_drinks">Brunnengetränke (Pick Size)</string>
+    <string name="small">Klein $1.45  </string>
+    <string name="medium">Mittel $1.55  </string>
+    <string name="large">Groß $1.75  </string>
+
+    <!-- BUTTONS -->
+    <string name="place_order">PLATZ BESTELLEN</string>
+    <string name="new_order">STARTEN SIE NEUE BESTELLUNG</string>
+
+    <!-- FORMAT FOR DISPLAY -->
+    <string name="order_total">Bestellen Gesamt </string>
+    <string name="items_ordered">Bestellte Artikel: </string>
+    <string name="subtotal">Zwischensumme: </string>
+    <string name="taxation">Steuer(8%): </string>
+
+</resources>

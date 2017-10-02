@@ -1,0 +1,24 @@
+<resources>
+    <!-- ORDER ITEMS-->
+    <string name="app_name">Dentro y fuera</string>
+    <string name="order_banner">Place an Order</string>
+    <string name="double_double">Doble Doble $3.60  </string>
+    <string name="cheese_burger">Hamburguesa con queso $2.15  </string>
+    <string name="french_fries">Papas fritas $1.65  </string>
+    <string name="shakes">Batidos $2.20  </string>
+    <string name="fountain_drinks">Bebidas de la fuente (tamaño de la selección)</string>
+    <string name="small">Pequeña $1.45</string>
+    <string name="medium">Medio $1.55</string>
+    <string name="large">Grande $1.75</string>
+
+    <!-- BUTTONS -->
+    <string name="place_order">REALIZAR PEDIDO</string>
+    <string name="new_order">COMIENZA UNA NUEVA ORDEN</string>
+
+    <!-- FORMAT FOR DISPLAY -->
+    <string name="order_total">Total del pedido: </string>
+    <string name="items_ordered">Artículos ordenados: </string>
+    <string name="subtotal">Total parcial: </string>
+    <string name="taxation">Impuestos(8%): </string>
+
+</resources>
