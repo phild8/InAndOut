@@ -33,8 +33,8 @@ public class SummaryActivity extends AppCompatActivity {
         String orderSummary = intent.getStringExtra("orderPriceSummary");
 
         // References to TextViews
-        TextView mTotalTextView = (TextView) findViewById(R.id.totalTextView);
-        TextView mItemsOrderedTextView = (TextView) findViewById(R.id.itemsOrderedTextView);
+        TextView mTotalTextView = findViewById(R.id.totalTextView);
+        TextView mItemsOrderedTextView = findViewById(R.id.itemsOrderedTextView);
 
         // Set to TextViews
         mTotalTextView.setText(totalOrder);
