@@ -1,5 +1,7 @@
 package edu.orangecoastcollege.cs273.pdavis11.inandout;
 
+import java.util.Objects;
+
 /**
  * Order - OrderActivities Model. Preforms calculations and methods, such as: getters, setters,
  * calculateTax, calculateSubtotal, calculateTotal, getNumberOfItems.
@@ -159,4 +161,37 @@ public class Order {
      * @param smallDrinks the new int value of mSmallDrinks
      */
     public void setSmallDrinks(int smallDrinks) {mSmallDrinks = smallDrinks;}
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Order)) return false;
+        Order order = (Order) o;
+        return mCheeseBurgers == order.mCheeseBurgers &&
+                mDoubleDoubles == order.mDoubleDoubles &&
+                mFrenchFries == order.mFrenchFries &&
+                mLargeDrinks == order.mLargeDrinks &&
+                mMediumDrinks == order.mMediumDrinks &&
+                mShakes == order.mShakes &&
+                mSmallDrinks == order.mSmallDrinks;
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(mCheeseBurgers, mDoubleDoubles, mFrenchFries, mLargeDrinks, mMediumDrinks, mShakes, mSmallDrinks);
+    }
+
+    @Override
+    public String toString() {
+        return "Order{" +
+                "mCheeseBurgers=" + mCheeseBurgers +
+                ", mDoubleDoubles=" + mDoubleDoubles +
+                ", mFrenchFries=" + mFrenchFries +
+                ", mLargeDrinks=" + mLargeDrinks +
+                ", mMediumDrinks=" + mMediumDrinks +
+                ", mShakes=" + mShakes +
+                ", mSmallDrinks=" + mSmallDrinks +
+                '}';
+    }
 }
