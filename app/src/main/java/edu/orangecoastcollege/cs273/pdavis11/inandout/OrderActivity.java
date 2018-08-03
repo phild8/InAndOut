@@ -44,14 +44,14 @@ public class OrderActivity extends AppCompatActivity {
         setContentView(R.layout.activity_order);
 
         // Use findViewId to connect the controller to each view
-        mDoubleDoubleEditText = (EditText) findViewById(R.id.doubleDoubleEditText);
-        mCheeseBurgerEditText = (EditText) findViewById(R.id.cheeseBurgerEditText);
-        mFrenchFriesEditText = (EditText) findViewById(R.id.frenchFriesEditText);
-        mShakesEditText = (EditText) findViewById(R.id.shakesEditText);
-        mSmallEditText = (EditText) findViewById(R.id.smallEditText);
-        mMediumEditText = (EditText) findViewById(R.id.mediumEditText);
-        mLargeEditText = (EditText) findViewById(R.id.largeEditText);
-        mOrderButton = (Button) findViewById(R.id.orderButton);
+        mDoubleDoubleEditText = findViewById(R.id.doubleDoubleEditText);
+        mCheeseBurgerEditText = findViewById(R.id.cheeseBurgerEditText);
+        mFrenchFriesEditText = findViewById(R.id.frenchFriesEditText);
+        mShakesEditText = findViewById(R.id.shakesEditText);
+        mSmallEditText = findViewById(R.id.smallEditText);
+        mMediumEditText = findViewById(R.id.mediumEditText);
+        mLargeEditText = findViewById(R.id.largeEditText);
+        mOrderButton = findViewById(R.id.orderButton);
     }
 
 
